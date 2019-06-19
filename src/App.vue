@@ -10,7 +10,9 @@
 
 <style lang="scss">
   body {
-    background-color: $green;
+    background-color: $darkgreen;
     font-family: $font;
+    display: flex;
+    justify-content: center;
   }
 </style>

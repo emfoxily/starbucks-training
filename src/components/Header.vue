@@ -15,6 +15,7 @@ export default {
 <style lang="scss">
     header {
         background-image: url($wood);
+        background-size: contain;
         display: flex;
         top: 0;
         left: 0;
