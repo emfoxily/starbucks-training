@@ -1,6 +1,8 @@
 <template>
     <header>
+        Kroger Store #408
         <img alt="Vue logo" src="../assets/starbux.png">
+       barista certification
     </header>
 </template>
 
@@ -12,10 +14,23 @@ export default {
 
 <style lang="scss">
     header {
-        background-color: $white;
+        background-image: url($wood);
+        display: flex;
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        color: $white;
+        // border: .1em solid $black;
     }
 
     header img {
-        width: 15%;
+        width: 13%;
+        align-self: center;
+        padding: 1em;
     }
 </style>

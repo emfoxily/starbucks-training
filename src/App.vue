@@ -11,5 +11,6 @@
 <style lang="scss">
   body {
     background-color: $green;
+    font-family: $font;
   }
 </style>
