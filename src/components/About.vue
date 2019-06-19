@@ -15,7 +15,7 @@ export default {
 <style lang="scss">
   p {
     background-color: $white;
-    margin: 20vw auto;
+    margin: 20vw -2vw;
     color: $black;
     width: 50vw;
     padding: 1em;
