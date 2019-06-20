@@ -24,9 +24,10 @@ export default {
         text-transform: uppercase;
         justify-content: center;
         align-items: center;
-        font-weight: bold;
+        font-weight: 600;
         color: $white;
         // border: .1em solid $black;
+        -webkit-text-stroke: 1px $black;
     }
 
     header img {

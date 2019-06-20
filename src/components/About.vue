@@ -15,12 +15,17 @@ export default {
 <style lang="scss">
   p {
     background-color: $white;
-    margin: 20vw -2vw;
+    margin: 20vw -10vw;
     color: $black;
     width: 50vw;
     padding: 1em;
     border: .05em solid $black;
     font-size: 1.5vw;
     text-align: center;
+    border-radius: .3em;
+  }
+
+  b {
+
   }
 </style>
